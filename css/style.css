@@ -1,10 +1,19 @@
+:root{
+  --dark:#14171d;
+  --dark-x:#1d2027;
+}
+
+body{
+  background-color:var(--dark-x)
+}
+
 * {
   margin: 0;
   padding: 0;
 }
-
+/*aqui empieza el header*/
 .nav {
-  background-color: rgb(0, 62, 255 );
+  background-color:var(--dark);
   text-align: right;
 }
 
@@ -14,11 +23,11 @@
 
 .nav li {
   display: inline-block;
-  padding: 14px 9px;
+  padding: 14px 12px;
 }
 
 .nav .li-buttons a {
-  color:rgb(0, 62, 255 );
+  color:var(--dark);
   transition: all 0.2s;
 }
 
@@ -31,7 +40,7 @@
 }
 
 .nav .li-buttons:hover{
-    background-color:rgb(0, 62, 255 );
+    background-color:var(--dark);
     margin: 6px;
     padding:6px 9px;
     
@@ -43,28 +52,64 @@
 
 .nav li a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color:#fff;
 }
 
+.jimp{
+  float: left;
+  margin-left:50px;
+  font-size:25px;
+}
+/*aqui termina el header*/
+
+/*aqui empieza el article*/
 .contenido {
   width: 90%;
   max-width: 1000px;
-  margin: auto;
+  margin: auto 175px ;
   overflow: hidden;
+  text-align:center;
 }
 
-.sub-menu {
-  float: right;
+.p{
+  color:#fff;
+  display: inline;
+}
+
+h5{
+  color:rgb(0, 0, 0);
+  text-align:center;
+  font-size: 30px;
 }
 
 .uno {
   text-align: right;
+  background-color: rgb(42, 44, 82);
+  padding:50px;
+  font-size: 20px;
+}
+
+.dos{
+  text-align: left;
+  background-color: rgb(90, 93, 162);
+  font-size: 20px;
+  padding:50px;
 }
 
 .tres {
   text-align: right;
+  background-color: rgb(42, 44, 82);
+  font-size: 20px;
+  padding:50px;
 }
 
 .cuatro {
   text-align: center;
+  background-color: rgb(90, 93, 162);
+  padding:50px;
+}
+
+.uno2{
+  width:200px;
+  
 }
