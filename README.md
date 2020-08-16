@@ -1,1 +1,1 @@
-JIMP
+JIMP es un proyecto chido
