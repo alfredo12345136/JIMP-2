@@ -1,20 +1,20 @@
-*{margin: 0; padding: 0;}
-
-section{
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: auto;
+/*reinicie el margen y el padding para luego modificarlo al antojo*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* */
+section{
+    
+}
+/*es para que el contenido este en el centro y no este por toda la pantalla*/
 .contenido{
     width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
-}
-
-.sub-menu{
-    float: right;
 }
 
 .uno{
@@ -29,5 +29,8 @@ section{
     text-align: center;
 }
 
-
+.logo{
+    width: 200px;
+    margin: 20px;
+}
 
