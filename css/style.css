@@ -1,36 +1,70 @@
-/*reinicie el margen y el padding para luego modificarlo al antojo*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* */
-section{
+.nav {
+  background-color: rgb(0, 62, 255 );
+  text-align: right;
+}
+
+.nav ul {
+  margin-right: 30px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 14px 9px;
+}
+
+.nav .li-buttons a {
+  color:rgb(0, 62, 255 );
+  transition: all 0.2s;
+}
+
+.nav .li-buttons{
+    background-color:#fff;
+    margin: 6px;
+    padding:6px 9px;
+    border: 2px solid #fff;
+    transition: all 0.2s;
+}
+
+.nav .li-buttons:hover{
+    background-color:rgb(0, 62, 255 );
+    margin: 6px;
+    padding:6px 9px;
     
 }
-/*es para que el contenido este en el centro y no este por toda la pantalla*/
-.contenido{
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
+
+.nav .li-buttons:hover > a{
+    color:#fff;
 }
 
-.uno{
-    text-align:right;
+.nav li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
-.tres{
-    text-align:right;
+.contenido {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
 
-.cuatro{
-    text-align: center;
+.sub-menu {
+  float: right;
 }
 
-.logo{
-    width: 200px;
-    margin: 20px;
+.uno {
+  text-align: right;
 }
 
+.tres {
+  text-align: right;
+}
+
+.cuatro {
+  text-align: center;
+}
