@@ -39,7 +39,6 @@
                 tipo<br>
                 dentro del genro de no copyrigh<br> y juegos de distintos tipos de manera gratuita,<br> asi que esperas
                 ven y descarga juegos en JIMP<br> </p>
-
         </div>
 
 
