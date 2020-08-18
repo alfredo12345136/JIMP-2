@@ -72,9 +72,8 @@ body{
 }
 
 h5{
-  text-alig: center;
+  text-align: center;
   font-size: 50px;
-
 }
 
 .uno{
@@ -105,7 +104,6 @@ img{
   width:300px;
   display:inline;
   margin: 20px;
-  transition: 0.3s;
 }
 
 p{
