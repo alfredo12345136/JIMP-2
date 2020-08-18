@@ -74,37 +74,53 @@ body{
 h5{
   text-alig: center;
   font-size: 50px;
+
 }
 
 .uno{
   background-color:rgba(42, 45, 100);
+  width: 1000px;
+  height: 250px;
 }
 
 .dos{
   background-color:rgba(76, 80, 169);
+  width: 1000px;
+  height: 250px;
 }
 
 .tres{
   background-color:rgba(42, 45, 100);
+  width: 1000px;
+  height: 250px;
 }
 
 .cuatro{
   background-color:rgba(76, 80, 169);
+  width: 1000px;
+  height: 250px;
 }
 
-.img-1 {
-    width: 300px;
+img{
+  width:300px;
+  display:inline;
+  margin: 20px;
+  transition: 0.3s;
 }
 
-.img-2{
-    width: 300px;
-   
+p{
+  font-size: 20px;
+  text-align:left;
+  display:inline;
+  margin: 20px;
 }
 
-.img-3{
-    width: 300px;
-    
+.left{
+  text-align: right;
+  display:inline;
+  margin: 20px;
 }
 
-
-
+.img-1{
+  width:150px;
+}
